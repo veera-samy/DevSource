@@ -1,0 +1,4 @@
+val a = spark.textFile("c:/load file")
+val split = a.flatmap(line => line.split(" "))
+val map = split.map(line => line(0),line(5))
+map.collect.foreach(println)

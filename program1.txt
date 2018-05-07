@@ -1,0 +1,9 @@
+object program1{
+	def main(args: Array[String](){
+		def add();
+	}
+	
+	add() {
+		x = y*10
+	}
+}
