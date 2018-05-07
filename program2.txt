@@ -1,7 +1,5 @@
 object program2{
 	def main(args: Array[String](){
-		def multiply();
-	}
 	
 	multiply() {
 		x = y*10
