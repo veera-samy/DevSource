@@ -2,4 +2,8 @@ val a = spark.textFile("c:/load file")
 val split = a.flatmap(line => line.split(" "))
 val map = split.map(line => line(0),line(5))
 map.collect.foreach(println)
+<<<<<<< HEAD
 data processing in spark - this line is added for Branch-Version-2
+=======
+Data ingestion in progress -- this line is added for Branch-Version-3
+>>>>>>> Branch-Version-3
